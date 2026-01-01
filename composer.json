@@ -1,53 +1,53 @@
 {
-    "name": "pdazcom/laravel-referrals",
-    "description": "A referrals system for a laravel projects.",
-    "homepage": "https://github.com/pdazcom/laravel-referrals",
-    "keywords": [
-        "laravel",
-        "referrals",
-        "package",
-        "laravel-referrals",
-        "referral-system",
-        "user-referral",
-        "affiliate",
-        "referral-program",
-        "referals"
-    ],
-    "type": "library",
-    "version": "2.0.0",
-    "require": {
-        "php": "^8.2",
-        "laravel/framework": "^9.52.18|^10",
-        "ext-json": "*"
-    },
-    "require-dev": {
-        "orchestra/testbench":"^7.48"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Konstantin A.",
-            "email": "kostya.dn@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Pdazcom\\Referrals\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Pdazcom\\Referrals\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Pdazcom\\Referrals\\Providers\\ReferralsServiceProvider"
-            ]
-        }
-    },
-    "scripts": {
-        "test": "./test.sh"
+  "name": "pdazcom/laravel-referrals",
+  "description": "A referrals system for a laravel projects.",
+  "homepage": "https://github.com/pdazcom/laravel-referrals",
+  "keywords": [
+    "laravel",
+    "referrals",
+    "package",
+    "laravel-referrals",
+    "referral-system",
+    "user-referral",
+    "affiliate",
+    "referral-program",
+    "referals"
+  ],
+  "type": "library",
+  "version": "2.0.0",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^9.52.18|^10|^12",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Konstantin A.",
+      "email": "kostya.dn@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pdazcom\\Referrals\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pdazcom\\Referrals\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pdazcom\\Referrals\\Providers\\ReferralsServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "./test.sh"
+  }
 }
